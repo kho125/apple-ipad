@@ -2,8 +2,6 @@
 
 ### Assets
 
-강의 예제에서 사용하는 이미지와 영상 등 에셋을 다운로드합니다.
-
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,8 +12,6 @@
 ```
 
 ### 오픈 그래프 및 트위터 카드 정보
-
-웹페이지가 소셜 미디어로 공유될 때 우선적으로 활용되는 정보를 지정합니다.
 
 ```html
 <!--Open Graph-->
@@ -121,8 +117,6 @@ html {
 ```
 
 ### Sprite Icon Animation
-
-여러 이미지를 한 이미지로 합쳐 관리하는 방식을 **이미지 스프라이트 기법** 이라고 합니다.
 
 <img src="./images/sprite_apps.png" alt="이미지 스프라이트" width="300" />
 
@@ -345,9 +339,6 @@ console.log(frames);
 ```
 
 ### IntersectionObserver
-
-[IntersectionObserver(요소의 가시성 관찰)](https://heropy.blog/2019/10/27/intersection-observer/)  
-브라우저 뷰포트(Viewport)와 설정한 요소(Element)의 교차점을 관찰하여, 요소가 보이는지 보이지 않는지 구별하는 기능.
 
 ```js
 // 요소의 가시성 관찰 로직
